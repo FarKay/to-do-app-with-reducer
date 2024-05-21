@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import List from "../components/List";
 import styles from "./Todo.module.css";
 import { useTodo } from "../context/TodoContext";
 
@@ -40,7 +39,6 @@ function Todo() {
           />
           <button className={styles.addBtn}>Add Task</button>
         </div>
-        <List />
       </form>
     </main>
   );
