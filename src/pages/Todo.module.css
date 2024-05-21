@@ -1,0 +1,42 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+
+.h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+
+.todoInput {
+    border: none;
+    width: 100%;
+    padding: 18px;
+    border-radius: 20px;
+
+}
+
+.todoInput:focus {
+    outline: none;
+}
+
+.addBtn {
+    border-radius: 20px;
+    border: none;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px;
+}

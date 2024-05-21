@@ -1,0 +1,57 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 9px;
+    padding: 15px;
+}
+
+.todoItemCompleted {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #888;
+    margin-bottom: 9px;
+    padding: 15px;
+}
+
+.inputItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+}
+
+.itemBtn {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+}
+
+.itemBtnCompleted {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #888;
+    color: #888;
+    border: none;
+    text-transform: capitalize;
+}
+
+.span {
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+.spanCompleted {
+    text-decoration: line-through;
+}
