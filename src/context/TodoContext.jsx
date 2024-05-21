@@ -57,8 +57,6 @@ function reducer(state, action) {
 function TodoProvider({ children }) {
   const [{ tasks }, dispatch] = useReducer(reducer, initialState);
 
-  //   const [tasks, setTasks] = useState(initialTasks);
-
   function handleAddTask(task) {
     dispatch({ type: "task/add", payload: task });
   }
