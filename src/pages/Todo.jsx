@@ -2,6 +2,7 @@
 import { useState } from "react";
 import styles from "./Todo.module.css";
 import { useTodo } from "../context/TodoContext";
+import List from "../components/List";
 
 function Todo() {
   const { onAddTask } = useTodo();
@@ -39,6 +40,7 @@ function Todo() {
           />
           <button className={styles.addBtn}>Add Task</button>
         </div>
+        <List />
       </form>
     </main>
   );
